@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #dadada;
+	opacity: 0.9;
+}
+#color_generate h2{
+	font-family: 'Permanent Marker', cursive;
+	padding: 0 30px;
+	line-height: 60px;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+}
+.attempt, .attempt2{
+	font-family: 'Permanent Marker', cursive;
+	justify-content: flex-end;
+}
+table{
+	margin: 20px 0;
+}
+td{
+	text-align: center;
+}
+.table td{
+	vertical-align: middle !important;
+}
+button{
+	font-family: 'Permanent Marker', cursive;
+
+}
+.sub_btn{
+	display: flex;
+	justify-content: flex-end !important;
+	margin: 30px 0;
+}
+label{
+	width: 150px;
+	height: 40px;
+	border-radius: 10px;
+	margin-bottom: 0 !important;
+}
+.color{
+	font-family: fantasy;
+	font-style: italic;
+}
+.sec_atmt, .thrd_atmt{
+	display: none;
+}
+.sec_atmt h3, .thrd_atmt h3{
+	font-family: 'Permanent Marker', cursive;
+	margin-top: 30px;
+}
+.attempt3 h3{
+	font-family: 'Permanent Marker', cursive;
+	margin-top: 30px;
+}
+input[type="radio"]{
+	position: absolute;
+	margin-top: 15px;
+	margin-left: -1%;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- For Media devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+<script src="./assets/js/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+<script src="./assets/js/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+<script src="./assets/js/bootstrap.min.js"></script>
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="./assets/css/style.css">
+ 
+    <!-- Google Font-->
+<link rel="stylesheet" href="./assets/font/font.css">
+
+	<title>Color Game Using JavaScript</title>
+</head>
+<body>
+
+<div id="color_generate"><h2>COLOUR GENERATE</h2></div>
+
+<!-- attempt 0-->
+<div class="container frst_atmt">
+    <div class="row attempt">
+        <h4>Attempt: 0</h4>
+    </div>
+    <div class="row color_table">
+      <table class="table table-borderless color_table">
+        <tbody>
+
+        </tbody> 
+      </table>            
+    </div>
+    <div class="row sub_btn">
+    <button class="btn btn-success" id="submit">Submit</button>         
+    </div>
+</div>
+
+<!-- attempt 1-->
+<div class="container sec_atmt">
+    <div class="row attempt2">
+        <h4>Attempt: 1</h4>
+    </div>
+    <h3>PROGRESS: 0%</h3>
+    <div class="row sub_btn">   
+    <button class="btn btn-success" id="submit2">Submit</button>         
+    </div>
+</div>
+
+<!-- result-->
+<div class="container thrd_atmt">
+    <div class="row attempt3">
+        <div class="col-md-6">
+            <h3 style="color: red;">Correct</h3>
+        </div>
+        <div class="col-md-6">
+            <h3 style="color: green;">Wrong</h3>
+        </div>
+    </div>
+    <h3>PROGRESS: 0%</h3>
+    <div class="row sub_btn">
+    <button class="btn btn-success" id="submit3">Submit</button>         
+    </div>
+</div>
+
+	<!-- JS File -->
+<script src="./assets/js/script.js"></script>
+
+</body>
+</html>
